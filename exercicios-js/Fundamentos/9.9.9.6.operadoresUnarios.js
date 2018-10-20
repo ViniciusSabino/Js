@@ -10,4 +10,3 @@ num1++; // Resultado = 2
 
 // Escreva codigos o mais simples possivel
 // Evite colocar varios operadores em uma única expressão
-
