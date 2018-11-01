@@ -6,10 +6,11 @@ const prod = [];
 // Declarando um novo Objeto
 const obj = {};
 
+
 // Adicionando atributos e valores a um objeto criado
 obj.nome = "Vinicius";
 obj.preco = 4.239;
-obj["teste"] = "Notação diferente";
+obj["teste"] = "Notação por chave";
 
 console.log(obj);
 

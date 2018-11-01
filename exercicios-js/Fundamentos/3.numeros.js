@@ -6,7 +6,7 @@ console.log(Number.isInteger(peso1));
 
 const numero_float = 10.4029;
 
-// Mostrand apenas 2 números apos a virgula = Number.toFixed(int)
+// Mostrando apenas 2 números apos a virgula = Number.toFixed(int)
 console.log(numero_float.toFixed(2));
 
 // Convertendo o número em uma string = Number.toString()

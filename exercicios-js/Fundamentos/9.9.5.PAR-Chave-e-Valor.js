@@ -3,7 +3,7 @@
 const saudacao = 'Opa' // contexto léxico 1 
 
 function exec() {
-    const saudacao = 'Fala'; // contexto lexico 2 (contexto mais restrito), se não acha procuro no contexto mais acima 
+    const saudacao = 'Fala'; // contexto lexico 2 (contexto mais restrito), se não acha então procura no contexto mais acima 
     return saudacao
 }
 

@@ -13,7 +13,7 @@ console.log(valores);
 // Retornando a quantidade de elementos do array
 console.log(valores.length);
 
-// Adicionando varios elementos diferentes ao arry => Array.push(elementos)
+// Adicionando varios elementos diferentes nas útimas posições do array => Array.push(elementos)
 valores.push("Vinicius", { nome: "Teste" }, true);
 
 console.log(valores);
@@ -24,5 +24,5 @@ console.log(valores.pop());
 // Irá deletar o elemento que está na posição 5 do array
 delete valores[5];
 
-// Resultado = object 
+// Resultado = Object 
 console.log(typeof valores); 

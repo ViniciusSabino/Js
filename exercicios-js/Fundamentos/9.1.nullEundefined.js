@@ -1,13 +1,16 @@
 let valor // não inicializada 
 
-console.log(valor);
-
 // Undefined => Nunca foi inicializada
 // Null => Ausencia de valor, significa que não aponta para nenhum endereço de memoria
 
-valor = null
 
-console.log(valor);
+let variavel = null
+
+// Forma 1 
+
+if (variavel && variavel.nome) { // Primeiro verifica se a variavel é nula e depois tenta acessar o campo 
+    console.log('Verificou');
+}
 
 // DICAS 
 

@@ -8,8 +8,9 @@
 const nums = [1, 2, 3, 4, 5]
 
 
-// For que irá percorrer todo o array de 6 posições chamado "nums", onde cada elemento será adicionado em um novo array, mas com o valor multiplicado por 10
-const dobro = nums.map((valor) => valor * 2)
+// For que irá percorrer todo o array de 6 posições chamado "nums", onde cada elemento será adicionado em um novo array, 
+// mas com o valor multiplicado por 10
+const dobro = nums.map(valor => valor * 2)
 
 console.log(dobro)
 

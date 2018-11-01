@@ -31,7 +31,7 @@ pilotos.splice(3, 1)
 
 console.log(pilotos)
 
-const algunsPilotos = pilotos.slice(2) // Irá criar um novo array a partir do elemento 2 
+const algunsPilotos = pilotos.slice(2) // Irá criar um novo array com base nesse mas a partir do elemento 2 
 
 console.log(algunsPilotos)
 
