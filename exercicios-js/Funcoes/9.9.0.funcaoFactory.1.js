@@ -2,10 +2,10 @@
 
 // Factory simples
 function criarPessoa() {
-    return {
-        nome: "Vinicius",
-        sobrenome: "Rocha"
-    }
+  return {
+    nome: "Vinicius",
+    sobrenome: "Rocha"
+  };
 }
 
-console.log(criarPessoa())
+console.log(criarPessoa());
