@@ -1,4 +1,4 @@
-**Principais comandos do NPM**
+# Principais comandos do NPM # 
 
 **Npm init**
 => exibe um miniquestionario para auxiliar na criação e descrição do package.json em seu projeto.
