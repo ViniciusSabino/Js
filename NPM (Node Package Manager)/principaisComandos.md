@@ -1,6 +1,6 @@
 **Principais comandos do NPM**
 
-**Npm init**
+**\*Npm init**
 => exibe um miniquestionario para auxiliar na criação e descrição do package.json em seu projeto.
 
 **Npm install nome_do_modulo**
