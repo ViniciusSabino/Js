@@ -14,4 +14,20 @@ Escreva uma lib que receba um número e:
 import { expect } from "chai";
 import { verifyNumber } from "../src/main";
 
-describe("Main - Verify Number", () => {});
+describe("Main - Verify Number", () => {
+    it("should return 'Fizz' when the value of 9 is passed", () => {
+        expect(verifyNumber(9)).to.equal("Fizz");
+    });
+
+    it("should return 'Buzz' when the value of 25 is passed", () => {
+        expect(verifyNumber(25)).to.equal("Buzz");
+    });
+
+    it("should return 'FizzBuzz' when the value of 15 is passed", () => {
+        expect(verifyNumber(15)).to.equal("FizzBuzz");
+    });
+
+    it("should return the value itself when the value of 11,3 is passed", () => {
+        expect(verifyNumber(11.3)).to.equal(11.3);
+    });
+});
