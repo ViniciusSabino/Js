@@ -5,6 +5,7 @@ const text = {
     buzz: "Buzz",
     divisivel: "Divisível",
     fizzbuzz: "FizzBuzz",
+    naoDivisivel: "Não divisível",
 };
 
 const verifyNumber = (valueInput) => {
@@ -12,14 +13,14 @@ const verifyNumber = (valueInput) => {
         if (valueInput % number === 0) {
             switch (number) {
                 case 3:
-                    return [number, "Fizz"];
+                    return [number, text.fizz];
                 case 5:
-                    return [number, "Buzz"];
+                    return [number, text.buzz];
                 default:
-                    return [number, "Divisível"];
+                    return [number, text.divisivel];
             }
         } else {
-            return [number, "Não divisível"];
+            return [number, text.naoDivisivel];
         }
     });
 
