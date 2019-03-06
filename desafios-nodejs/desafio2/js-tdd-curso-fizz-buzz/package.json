@@ -4,7 +4,25 @@
     "description": "Desafio FizzBuzz",
     "main": "index.js",
     "scripts": {
-        "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require node_modules/@babel/register"
+        "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require node_modules/@babel/register",
+        "test:coverage": "nyc npm test",
+        "lint": "./node_modules/.bin/eslint src/*.js"
+    },
+    "husky": {
+        "pre-push": "npm run lint && npm run test:coverage",
+        "pre-commit": "pretty-quick --staged"
+    },
+    "nyc": {
+        "functions": 80,
+        "lines": 80,
+        "check-coverage": true,
+        "reporter": [
+            "text",
+            "html"
+        ],
+        "exclude": [
+            "tests/**"
+        ]
     },
     "author": "Vinícius Rocha <vnc.chelsea@gmail.com>",
     "license": "ISC",
@@ -23,6 +41,7 @@
         "eslint-plugin-prettier": "^3.0.1",
         "husky": "^1.3.1",
         "mocha": "^6.0.0",
+        "nyc": "^13.3.0",
         "prettier": "^1.16.4",
         "pretty-quick": "^1.10.0"
     }

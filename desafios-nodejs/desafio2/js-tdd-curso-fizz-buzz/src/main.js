@@ -33,4 +33,6 @@ const verifyNumber = (valueInput) => {
     return filtered[0][1] === text.fizz ? text.fizz : text.buzz;
 };
 
+const foo = () => "bla";
+
 export { verifyNumber };
