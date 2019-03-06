@@ -35,4 +35,4 @@ const verifyNumber = (valueInput) => {
 
 const foo = () => "bla";
 
-export { verifyNumber };
+export { verifyNumber, foo };
