@@ -9,8 +9,10 @@
         "lint": "./node_modules/.bin/eslint src/*.js"
     },
     "husky": {
-        "pre-push": "npm run lint && npm run test:coverage",
-        "pre-commit": "pretty-quick --staged"
+        "hooks": {
+            "pre-push": "npm run lint && npm run test:coverage",
+            "pre-commit": "pretty-quick --staged"
+        }
     },
     "nyc": {
         "functions": 80,
