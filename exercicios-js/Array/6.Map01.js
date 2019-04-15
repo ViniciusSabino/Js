@@ -1,4 +1,4 @@
-// MAP => Transformar um Array em um novo Array
+// MAP => Use o map() quando é preciso traduzir/mapear todos os elementos em um array para outro conjunto de valores
 
 // Algunas Regras
 
