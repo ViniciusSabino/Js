@@ -1,6 +1,8 @@
+// ---------------------------- Array.fill
+
 const array = new Array(20); // Definindo um array de tamanho 20
 
-array.fill("Vinícius");
+array.fill("Vinícius"); // Irá colocar o elemento 'Vinicius' em todas posições do array
 
 console.log(array);
 // [
@@ -28,7 +30,7 @@ console.log(array);
 
 const novoArray = new Array(10);
 
-novoArray.fill(2, 5, 9);
+novoArray.fill(2, 5, 9); // Irá inserir o elemento de uma posição até outra posição
 
 // parametro 1 => o valor que irá ser colocado nas posições do array
 // parametro 2 => a partir de determinada posição

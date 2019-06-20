@@ -1,4 +1,4 @@
-// criando array com diferentes tipos de dados de forma mais simples
+// ----------------- Array.of() => criando array com diferentes tipos de dados de forma mais simples
 
 const array = Array.of("Vínicius", 2019, ["1", 1], { nome: "SPFC" });
 

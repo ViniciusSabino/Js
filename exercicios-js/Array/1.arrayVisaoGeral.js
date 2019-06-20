@@ -1,31 +1,23 @@
-let aprovados = ["Vinicius", "Denis", "Maria", "Lucas"]
+// Array - Visão Geral
 
-console.log(aprovados[2]) // Resultado = Maria
+let aprovados = ["Vinicius", "Denis", "Maria", "Lucas"];
 
-// --------> Adicionando valores ao array ou modificando os valores caso já exista elementos
-aprovados[4] = "João"
-aprovados.push("Ana", "Conceição")
+console.log(aprovados[2]); // Resultado = Maria
 
-// --------> Lendo valores do array
-console.log(aprovados[4]) // João
-console.log(aprovados[6]) // Conceição
+aprovados[4] = "João"; // Adicionando valores ao array ou modificando os valores caso já exista elemento nessa posição
+aprovados.push("Ana", "Conceição"); // Adicionando dois elementos no final do array
 
-// ----------> Ordenando o array "aprovados" em ordem crescente
+console.log(aprovados[4]); // João
+console.log(aprovados[6]); // Conceição
 
-aprovados.sort()
+aprovados.sort(); // Ordenando o array em ordem crescente
 
-// -----------------> Deletando itens do array
-delete aprovados[1] // Elemento de indice 1 será igual a undefined
+delete aprovados[1]; // Deletando o elemento do array, o elemento de indice 1 será igual a undefined
 
-
-// -----------------> Deletando itens do array de um certo ponto até outro
-aprovados.splice(1, 2) // Irá excluir o elemento da posição 1 até o elemento da posição 2
-console.log(aprovados)
-
-// -----------------> Deletando ou não elementos e támbem adicionando novos elementos
+aprovados.splice(1, 2); // Irá excluir o elemento da posição 1 até o elemento da posição 2
+console.log(aprovados);
 
 // Array até o momento => //[ 'Ana', 'João', 'Lucas', 'Maria', 'Vinicius' ]
-aprovados.splice(1, 4, 'Lays', 'Taciana', 'Ster')
+aprovados.splice(1, 4, "Lays", "Taciana", "Ster"); // Deletando ou não elementos e támbem adicionando novos elementos
 
-// Resultado = ['Ana', 'Lays','Taciana','Ster']
-console.log(aprovados)
+console.log(aprovados); // Resultado = ['Ana', 'Lays','Taciana','Ster']
