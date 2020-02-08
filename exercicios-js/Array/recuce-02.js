@@ -34,6 +34,10 @@ const resultado2 = alunos
 console.log(resultado2);
 
 // Nesses dois exemplos
-// map => Retorna um novo array, mas com os elementos do array tendo apenas o booleano que indica se é bolsista ou não
-// reduce => Irá percorrer todos os elementos do array, pegando o primeiro elemento e fazendo uma determinada operação com o segundo elemento, o resultado
+
+// map => Retorna um novo array, mas com os elementos do array tendo apenas o 
+// booleano que indica se é bolsista ou não
+
+// reduce => Irá percorrer todos os elementos do array, pegando o primeiro elemento e 
+// fazendo uma determinada operação com o segundo elemento, o resultado
 //  é então operado novamente com o elemento seguinte

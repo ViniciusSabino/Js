@@ -11,7 +11,9 @@ const carrinho = [
 // Desafio: Retornar um array apenas com os preços
 const arrayPrecos = carrinho.map(item => JSON.parse(item).preco);
 
-// Forma feita no curso
+// Forma feita no curso 
+
+// Obs: o desempenho será menor por que dois maps estão sendo feito
 const apenasObjeto = json => JSON.parse(json);
 const apenasPreco = item => item.preco;
 

@@ -27,11 +27,14 @@ const escola = [
   }
 ];
 
-const getNotaDoAluno = aluno => aluno.nota; // Função que receberá um aluno e devolverá a sua nota
+// Função que receberá um aluno e devolverá a sua nota
+const getNotaDoAluno = aluno => aluno.nota; 
 
-const getNotasDaTurma = turma => turma.alunos.map(getNotaDoAluno); // Função que recebe uma turma e retorna um array com a nota de todos os alunos dessa turma
+// Função que recebe uma turma e retorna um array com a nota de todos os alunos dessa turma
+const getNotasDaTurma = turma => turma.alunos.map(getNotaDoAluno); 
 
 const notas1 = escola.map(getNotasDaTurma);
+
 console.log(notas1); // => [ [ 10, 9 ], [ 2, 5 ] ]
 
 Array.prototype.flatMap = function(callback) {

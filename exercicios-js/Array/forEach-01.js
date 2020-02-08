@@ -22,7 +22,8 @@ aprovados.forEach((nome, indice) => console.log(`${indice + 1} - ${nome}`));
 // 1 Parametro só - Valor
 aprovados.forEach(nome => console.log(nome));
 
-// Armazenando primeiro em uma viravel a função que será chamado quando for percorrido cada elemento do array
+// Armazenando primeiro em uma viravel a função que será chamado quando for percorrido 
+// cada elemento do array
 const exibirAprovados = aprovado => console.log(aprovado);
 aprovados.forEach(exibirAprovados);
 

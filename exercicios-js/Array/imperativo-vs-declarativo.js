@@ -13,12 +13,17 @@ const alunos = [
 
 // Imperativo (No exemplo: Descrevendo passo a passo como tudo deve ser feito)
 let total1 = 0;
+
 for (let i = 0; i < alunos.length; i++) {
   total1 += alunos[i].nota;
 }
+
 console.log(total1 / alunos.length);
 
-// Declarativo (No exemplo: Você se preocupa mais com o que deve ser feito, do que o como irá ser feito (dados internos não precisam estar explicitamente mostradas))
+// Declarativo 
+//(No exemplo: Você se preocupa mais com o que deve ser feito, do que o como irá ser feito 
+//(dados internos não precisam estar explicitamente mostradas))
+
 const getNotas = aluno => aluno.nota;
 const soma = (total, atual) => total + atual;
 
