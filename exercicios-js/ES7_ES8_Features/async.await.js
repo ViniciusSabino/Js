@@ -1,6 +1,7 @@
 // Básico
 
 // async/await funciona obrigatóriamente no protocolo de promises
+
 // async é uma palavra chave usada no inicio de uma função
 // await é usado para avisar a função para esperar o resultado da promise
 // await só pode ser usado para uma função async

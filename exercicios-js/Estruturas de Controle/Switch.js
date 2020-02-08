@@ -21,7 +21,8 @@ const ImprimirResultado = function (nota) {
             break
     }
 
-    // Caso tenha um código nessa região, ele será executado, pois apenas irá sair do switch apenas e não de dentro da função
+    // Caso tenha um código nessa região, ele será executado, 
+    //pois apenas irá sair do switch apenas e não de dentro da função
 }
 
 // Dentro de cada case, o uso das {} não é necessário 
