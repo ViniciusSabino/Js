@@ -1,4 +1,5 @@
-// ----------------- Array.from() - Irá pegar cada caractere  da String e jogar em uma posição do array
+// ----------------- Array.from() 
+// - Irá pegar cada caractere  da String e jogar em uma posição do array
 
 const nome = "Vinícius";
 

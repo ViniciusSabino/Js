@@ -9,7 +9,8 @@ const promise1 = new Promise((resolve, reject) => {
 
 // executando uma promise
 
-promise1.then(retorno => console.log(retorno)); // retorno = "OK" (o que foi passado dentro do resolve())
+promise1.then(retorno => console.log(retorno)); // retorno = "OK" 
+// (o que foi passado dentro do resolve())
 
 ////////////////////////////////////////////////////// segundo exemplo
 
@@ -29,11 +30,11 @@ const time3 = Promise.resolve("Palmeiras");
 
 const time = Promise.resolve().then(() => {
   Promise.all([time1, time2]).then(([t1, t2]) => {
-    //console.log(t2);
+    console.log(t2);
   });
 });
 
-// time.then(); // Resultado = Corinthians
+time.then(); // Resultado = Corinthians
 
 /////////////////////////////////////////////////// quarto exemplo
 const array = [1, 2, 3, 4, 5];

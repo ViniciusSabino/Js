@@ -6,17 +6,18 @@ const pessoa = {
   nome: nome,
   idade: idade,
 
-  hello: function() {
+  hello: () => {
     console.log(`Olâ meu nome é ${this.nome}`);
   }
 };
 
 pessoa.hello();
 
-// usando shorthand properties para propriedades e também para funções/métodos
+// usando Shorthand Properties para propriedades e também para funções/métodos
 const pessoa2 = {
   nome,
   idade,
+  
   hello() {
     console.log(`Olâ meu nome é ${this.nome}`);
   }
@@ -24,4 +25,5 @@ const pessoa2 = {
 
 pessoa2.hello();
 
-// Se a constante tem o mesmo valor da propriedade do objeto então posso colocar dessa forma
+// Se a constante tem o mesmo valor da propriedade do objeto então posso 
+// colocar dessa forma

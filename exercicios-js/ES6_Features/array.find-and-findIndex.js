@@ -1,12 +1,15 @@
-// ------------------------ Array.find() - Retorna o primeiro elemento que satisfazer a condição
+// ------------------------ Array.find() 
+// - Retorna o primeiro elemento que satisfazer a condição
 
 const arraySimples = [4, -5, 0, -3, 11, 5];
 
-const menor0 = arraySimples.find(x => x < 0); // find() - retorna o primeiro elemento do array com base na expressão
+// find() - retorna o primeiro elemento do array que satisfazer a condição
+const menor0 = arraySimples.find(x => x < 0); 
 
 console.log(menor0); // -5
 
-// --------------------Array.findIndex() - Retornar o indice do array referente ao elemento que satisfazer a expressão
+// --------------------Array.findIndex() 
+// - Retornar o indice do array referente ao elemento que satisfazer a expressão
 
 const objeto = [
   {

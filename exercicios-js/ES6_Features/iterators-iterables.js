@@ -5,7 +5,8 @@ const array = [1, 2, 3, 4, 5, 6];
 const texto = "Barcelona"; // Iterable
 const iterator = texto[Symbol.iterator](); // Iterator
 
-console.log(iterator.next()); // { value: 'B', done: false }  => done = ainda existem itens para iterar
+// { value: 'B', done: false }  => done dirá se ainda existem itens para iterar
+console.log(iterator.next()); 
 console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
@@ -15,6 +16,8 @@ console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
+
+// Resultado dos consoles 
 
 // { value: 'a', done: false }
 // { value: 'r', done: false }
