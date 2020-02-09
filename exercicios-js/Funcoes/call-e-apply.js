@@ -11,11 +11,11 @@ const produto = {
 
 // Formas de executar a função getPreco()
 
-// 1
+//----------  1
 (global.preco = 20), (global.desc = 0.1);
 console.log(getPreco());
 
-// 2
+// --------- 2
 console.log(produto.getPreco());
 
 // 3 - Usando Call e Apply
@@ -26,6 +26,8 @@ console.log(getPreco.apply(carro, [0.17, "R$"]));
 
 // Nesse exemplo
 
-// call => função que indicará qual o contexto que a função que está chamando irá utilizar, os demais parametros são os parametros da função "getPreco"
+// call => função que indicará qual o contexto que a função que está chamando 
+// irá utilizar, os demais parametros são os parametros da função "getPreco"
 
-// apply => basicamente é a mesma função que o "call", mas os parametros da função getPreco() são passados dentro de um array como o segundo argumento
+// apply => basicamente é a mesma função que o "call", 
+// mas os parametros da função getPreco() são passados dentro de um array como o segundo argumento

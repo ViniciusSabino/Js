@@ -1,6 +1,8 @@
 // --------------------------------------------------- function declaration
 
-console.log(soma(4, 5)) // Resultado = 9 (Pois o interpretador javascript primeiro carrega as funções, deixa tudo preparado e depois o código é executado
+console.log(soma(4, 5)) // Resultado = 9 
+// (Pois o interpretador javascript primeiro carrega 
+// as funções, deixa tudo preparado e depois o código é executado
 
 
 function soma(x, y) {

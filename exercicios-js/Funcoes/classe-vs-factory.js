@@ -1,4 +1,4 @@
-// Criando um objeto a partir de uma classe
+// --------------------- Criando um objeto a partir de uma classe
 class Pessoa {
   constructor(nome) {
     this.nome = nome;
@@ -12,7 +12,7 @@ class Pessoa {
 const p1 = new Pessoa("Vinícius");
 p1.falar();
 
-// Criando um objeto a partir de uma Factory
+// ----------------------- Criando um objeto a partir de uma Factory
 
 const criarPessoa = nome => {
   return { falar: () => console.log(`Meu Nome é ${nome}`) };

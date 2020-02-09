@@ -1,5 +1,6 @@
 // Dentro da função soma, tem um for que irá percorrer todos os argumentos 
-// que forem passados na chamada da função, é irá somar, no final irá retornar a soma do valor de todos os argumentos
+// que forem passados na chamada da função, é irá somar, 
+// no final irá retornar a soma do valor de todos os argumentos
 
 function soma() {
     let soma = 0
@@ -15,7 +16,9 @@ function teste() {
     return teste;
 }
 
-// arguments => palavra reservada do javascript que representa uma coleção de todos os parametros que foram passados em uma função 
+// arguments => palavra reservada do javascript que representa uma coleção de todos os 
+// parametros que foram passados em uma função 
+
 // arguments[i] => acessa o valor do argumento da determinada posição
 
 

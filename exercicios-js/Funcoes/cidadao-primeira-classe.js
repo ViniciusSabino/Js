@@ -1,4 +1,4 @@
-// Função em JS é First-Class Object (Citizens)
+// ------------------ Função em JS é First-Class Object (Citizens)
 // Higher-order function
 
 // Criar de forma literal
@@ -16,8 +16,8 @@ console.log(array[2]());
 // Armazenar em um atributo de objeto
 const obj = {};
 obj.falar = () => 'Eae men';
-console.log(obj.falar);  // Resultado igual = [Function]
-console.log(obj.falar()); // Resultado igual = Eae men
+console.log(obj.falar);  // Resultado = [Function]
+console.log(obj.falar()); // Resultado = Eae men
 
 
 // Passar função como parametro
@@ -30,9 +30,7 @@ const f1 = () => console.log('Executei F1');
 run(f1)
 
 // Uma função pode retornar/conter uma função
-function soma(a, b) {
-    return (c) => console.log(a + b + c);
-}
+const soma = (a, b) => (c) => console.log(a + b + c);
 
 soma(2, 3)(5) // Primeira possibilidade
 

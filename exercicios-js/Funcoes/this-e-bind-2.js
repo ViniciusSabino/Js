@@ -10,7 +10,8 @@ function Pessoa() {
     }.bind(this), 1000); // this = Pessoa {idade: 0}
 }
 
-// a função bind nesse contexto, irá fazer com que o atributo "idade" seja resolvido para o atributo idade de Pessoa e não mais 
+// a função bind nesse contexto, irá fazer com que o atributo "idade" seja 
+// resolvido para o atributo idade de Pessoa e não mais 
 // de setInterval()
 
 new Pessoa()

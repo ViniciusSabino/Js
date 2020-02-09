@@ -1,7 +1,8 @@
 const pessoa = {
     saudacao: 'Bom dia!',
     falar() {
-        console.log(this.saudacao); // this => acessando o objeto que está sendo referenciado nesse contexto, no caso "pessoa"
+        console.log(this.saudacao); // this => acessando o objeto que está sendo referenciado 
+        //nesse contexto, no caso "pessoa"
     }
 }
 
@@ -11,10 +12,10 @@ const { falar, saudacao } = pessoa
 
 falar() // Resultado = undefined (conflito entre paradigmas: funcional e OO)
 
-// Resultado foi undefined pois o this que está contido no objeto pessoa, não está refenciando mais para o atributo saudação do objeto pessoa, 
-// pois a constante falar, recebeu apenas a função
+// Resultado foi undefined pois o this que está contido no objeto pessoa, não está refenciando 
+// mais para o atributo saudação do objeto pessoa, pois a constante falar, recebeu apenas a função
 
-console.log(saudacao); // Resultado = "Bom dia!"
+console.log(saudacao); // Resultado = "Bom dia!"s
 
 const falar2 = pessoa.falar
 
